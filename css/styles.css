@@ -32,7 +32,7 @@ nav{
     margin: 0 auto 0 auto;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #E8E89F;
     border: 3px;
     border-color: #707070;
@@ -86,26 +86,28 @@ font-weight: bold;
     font-weight: bold;
     }
 /*Background Images on About and Home Page*/
-.AboutBackground{
+
+.homeBackground{
     width: 100%;
-    height: 100%;
-    background-image: url(../images/AboutBackground.jpg);
+    height: 90%;
+    background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
-    opacity: calc(26%);
+    opacity: calc(70%);
+    margin: 0 auto 0 auto;
+    position: absolute;
+}
+.AboutBackground{
+    width: 100%;
+    height: 83%;
+    background-image: url(../images/websiteBackground.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: calc(70%);
     margin: 0 auto 0 auto;
     position: absolute;
 }
 
-.HomeBackground{
-    width: 100%;
-    height: 100%;
-    background-color: pink;
-    background-size: cover;
-    background-position: center;
-    opacity: calc(50%);
-    position: absolute;
-}
 /*Screenshots on Projects Page*/
 .Screenshot1{
     width:603px ;
@@ -162,47 +164,36 @@ font-weight: bold;
 }
 /*All Text on the About Page*/
 .aboutthedeveloper{
+margin-top: 10px;
+margin-bottom: 10px;
 font-size: 60px;
 font-family: Georgia-Bold;
 color: #0D0D07;
-margin-left: 20px;
+opacity: calc(70%);
 }
 
 .paragraphsaboutme1{
     font-family: Baskerville Regular;
     font-size: 31px;
-    margin-left: 20px;
     font-weight: bold;
+    opacity: calc(70%);
 }
 
 .paragraphsaboutme2{
     font-family: Baskerville Regular;
     font-size: 31px;
-    margin-left: 20px;
+    opacity: calc(70%);
     font-weight: bold;
 }
 
 .paragraphsaboutme3{
     font-family: Baskerville Regular;
     font-size: 31px;
-    margin-left: 20px;
+    opacity: calc(70%);
     font-weight: bold;
 }
 
-.Topcomment{
-    font-family: Georgia-Bold;
-    font-size: 50px;
-    margin-left: 20px;
-    color: #484A0F;
-    margin-top: 35px;
-}
-.EmployQuote{
-    font-size: 35px;
-    font-family: Baskerville-Italic;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: bold;
-}
+
 /*All Text on Home Page*/
 .AndreaWeb{
     font-family: Baskerville-Bold;
@@ -212,7 +203,7 @@ margin-left: 20px;
     justify-content: center;
     margin-top: 300px;
     color: #484A0F;
-    font-weight: bolder;
+    opacity: calc(80%);
 }
 
 .BackComment{
@@ -244,6 +235,7 @@ font-family: Baskerville-Bold;
 font-size: 40px;
 color: black;
 text-align: center;
+opacity: calc(80%);
 }
 
 
@@ -441,25 +433,50 @@ footer{height: 68px;
     font-family: Baskerville-Regular;
     color: #707070; 
 }
-.footer3{
-    height: 68px;
+.footerThree{
+    height: 99px;
     width: 100%;
     background-color:#E8E89F;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 80px;
+    margin-top: 223px;
     position: relative;
 }
 
-.footer3 .copyright{
+.footerThree .copyright{
     font-size: 28px;
     background-color:#E8E89F;
     font-family: Baskerville-Regular;
    color: #707070;
    position: relative;
 }
-.footer3 .terms{
+.footerThree .terms{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+    color: #707070;
+    position: relative;
+}
+.footerFour{
+    height: 99px;
+    width: 100%;
+    background-color:#E8E89F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footerFour .copyright{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+   color: #707070;
+   position: relative;
+}
+.footerFour .terms{
     font-size: 28px;
     background-color:#E8E89F;
     font-family: Baskerville-Regular;
