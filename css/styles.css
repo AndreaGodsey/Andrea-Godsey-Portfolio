@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+html,body{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 16px;
+} /*To cut off the white boxes around the page*/
+/*The Fonts*/
+@font-face {
+    font-family: Baskerville Regular;
+    src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+
+@font-face {
+    font-family: Baskerville-Italic;
+    src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face{
+    font-family: Georgia-Bold;
+    src: url(../fonts/Baskervville/Noto_Serif_Georgian/NotoSerifGeorgian-Bold.ttf);
+}
+/*Navigation Bar at the Top of Each Page*/
+nav{
+    width: 100%;
+    height: 99px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #E8E89F;
+    border: 3px;
+    border-color: #707070;
+   
+}
+/*The Links that connect each page in the nav*/
+.links a{
+    text-decoration: none;
+    background-color: #E8E89F;
+    font-size: 28px;
+    color: #707070;
+    font-family: Baskerville-Regular;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    }
+/*Title of each link*/
+.TitleWebsite{
+    width: 543px;
+    text-decoration: none;
+    background-color: #E8E89F;
+    font-size: 28px;
+    color: #707070;
+    font-family: Baskerville-Regular;
+    margin-right: 670px;
+}
+/*Each Active Link here is higlighted depending on which page the user is on*/
+.active{
+    color: #26BE03;
+    font-family: Baskerville-Italic;
+    background-color: #E8E89F;
+    font-weight: bold;
+}
+ .active2{
+color: #26BE03;
+font-family: Baskerville-Italic;
+background-color: #E8E89F;
+font-weight: bold;
+}
+.active3{
+    color: #26BE03;
+    font-family: Baskerville-Italic;
+    background-color: #E8E89F;
+    font-weight: bold;
+    }
+
+.active4{
+    color: #26BE03;
+    font-family: Baskerville-Italic;
+    background-color: #E8E89F;
+    font-weight: bold;
+    }
+/*Background Images on About and Home Page*/
+.AboutBackground{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/AboutBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: calc(26%);
+    margin: 0 auto 0 auto;
+    position: absolute;
+}
+
+.HomeBackground{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    opacity: calc(50%);
+    position: absolute;
+}
+/*Screenshots on Projects Page*/
+.Screenshot1{
+    width:603px ;
+    height: 308px;
+    background-image: url(../images/SoapFactory\ copy.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+
+.Screenshot2{
+    width:603px ;
+    height: 308px;
+    background-image:url(../images/Sweet.io.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+
+.Screenshot3{
+    width:603px ;
+    height: 308px;
+    background-image:url(../images/The\ Coffee\ Place.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+/*ScreenShots that are bigger in size on SoapProject1 SweetioProject2 and TheCoffeePlaceProject*/
+.BiggerSoap{
+    width:800px ;
+    height: 600px;
+    background-image: url(../images/SoapFactory\ copy\ 2.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+
+.BiggerSweet{
+    width:800px ;
+    height: 600px;
+    background-image: url(../images/Sweet.io\ copy.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+
+.BiggerCoffee{
+    width:800px ;
+    height: 600px;
+    background-image: url(../images/The\ Coffee\ Place\ copy.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+/*All Text on the About Page*/
+.aboutthedeveloper{
+font-size: 60px;
+font-family: Georgia-Bold;
+color: #0D0D07;
+margin-left: 20px;
+}
+
+.paragraphsaboutme1{
+    font-family: Baskerville Regular;
+    font-size: 31px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.paragraphsaboutme2{
+    font-family: Baskerville Regular;
+    font-size: 31px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.paragraphsaboutme3{
+    font-family: Baskerville Regular;
+    font-size: 31px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.Topcomment{
+    font-family: Georgia-Bold;
+    font-size: 50px;
+    margin-left: 20px;
+    color: #484A0F;
+    margin-top: 35px;
+}
+.EmployQuote{
+    font-size: 35px;
+    font-family: Baskerville-Italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+/*All Text on Home Page*/
+.AndreaWeb{
+    font-family: Baskerville-Bold;
+    font-size: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    color: #484A0F;
+    font-weight: bolder;
+}
+
+.BackComment{
+font-family: Georgia-Bold;
+font-size: 60px;
+margin-left: 16px;
+margin-top: 199px;
+color: #717606;
+}
+.paragraphs1{
+    display:flex;
+    justify-content: space-evenly
+}
+.left{
+   width: 823px;
+   height: 204px;
+   align-items: center;
+}
+
+.right{
+width: 823px;
+height: 184px;
+align-items: center;
+}
+
+
+.Info{
+font-family: Baskerville-Bold;
+font-size: 40px;
+color: black;
+text-align: center;
+}
+
+
+/*All boxes and Text on Contact Page*/
+.textInputs label, input{
+    display: block;
+    border: solid 3px: #E8E89F;
+    }
+.textInputs label, input{
+    margin-top: 47px;
+    font-family: Baskerville Regular;
+    font-size: 35px;
+    color: black;
+    margin-left: 110px;
+    
+     }
+ .Redastk{
+    color: #FC2205;
+}
+.textInputs input{
+        width: 1490px;
+        height: 73px;
+        border: solid 3px #E8E89F;
+        color: #FFFFFF;
+        background-color: #484A0F;
+        margin-left: 110px;
+        }
+.subBtn{
+    padding: 3px 3px;
+    background-color: #E8E89F;
+    border-style: solid ;
+    border-color: #707070;
+    border-radius: 31px;
+    font-family: Baskerville Regular;
+    color: black;
+    font-size: 35px;
+    width: 570px;
+    margin-top: 49px;
+    margin-left: 580px;
+    margin-bottom: 49px;
+    font-weight: bold;
+        }
+/*This Style helps the ScreenShots on the Projects page*/
+.Screenshots{
+    display:flex;
+    justify-content: space-evenly
+        }
+/*Styles Soap Factory Screenshot to the left*/
+.left1{
+width:400px ;
+height: 400px;
+margin-right:330px ;
+margin-top: 86px;
+}
+/*Title for SoapFactory Page*/
+.SoapFactoryTitle{
+    margin-top:27px ;
+    margin-left: 140px;
+    font-family: Baskerville Regular;
+    font-size: 30px;
+    color: #484A0F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Styles Sweetio Screenshot to the right*/
+.right1{
+width: 400px;
+height: 400px;
+margin-right: 180px;
+margin-top: 86px;
+}
+/*Title for SoapFactory Page*/
+.SweetIoTitle{
+    margin-top:27px ;
+    margin-left: 250px ;
+    font-family: Baskerville Regular;
+    font-size: 30px;
+    color: #484A0F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*The Coffee Place Screenshot underneath Sweetio and SoapFactory screenshots*/
+.Screenshot3Place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+   margin-bottom: 27px;
+}
+/*Title for SoapFactory Page*/
+.TheCoffeePlaceTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: Baskerville Regular;
+    font-size: 30px;
+    color: #484A0F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*All these styles create the SoapProject1, Sweetio Project2, and The Coffee Place positionings. The text and images are in the same position on each page, and this style is repeated on each of these three page*/
+.ProjectGroup{
+display: flex;
+justify-content: space-evenly;
+}
+
+.left3{
+height: 1100px;
+margin-right: 300px;
+}
+
+.right3{
+    height: 1100px;
+    width: 400px;
+    margin-top: 36.5px;
+   margin-right: 425px;
+}
+
+.TitleProject{
+margin-top: 36.5px;
+font-size: 40px;
+color: #484A0F;
+font-weight: bold;
+font-family: Georgia-Bold;
+margin-left: 20px;
+}
+
+.ParaProject{
+    width: 600px;
+    margin-top: 9.5px;
+    margin-left: 20px;
+    font-size: 33px;
+    font-family: Baskerville Regular;
+   
+}
+
+.LinktoSoapTitle{
+margin-top:3.5px ;
+font-family: Baskerville Regular;
+font-weight: bold;
+color: #484A0F;
+font-size: 35px;
+margin-left: 20px;
+}
+
+.Client{
+    margin-top: 26px;
+    font-family: Georgia-Bold;
+    font-weight: bold;
+    font-size: 35px;
+    color: #484A0F;
+}
+
+.ClientPara{
+font-size: 33px;
+font-family: Baskerville-Italic;
+width: 800px;
+margin-top: 28px;
+font-weight: bolder;
+}
+
+.linktowebsite{
+    margin-left: 12px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 18px;
+    font-family: Baskerville Regular;
+    font-weight: bolder;
+}
+/*Footers for all Pages (Listed in HTML for Specific Ones*/
+footer{height: 68px;
+    width: 100%;
+    background-color:#E8E89F;
+    display: flex;
+    
+    }
+.footer1{
+    height: 68px;
+    width: 100%;
+    background-color:#E8E89F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer1 .copyright{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+   color: #707070
+}
+.footer1 .terms{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+    color: #707070; 
+}
+.footer3{
+    height: 68px;
+    width: 100%;
+    background-color:#E8E89F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer3 .copyright{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+   color: #707070;
+   position: relative;
+}
+.footer3 .terms{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+    color: #707070;
+    position: relative;
+}
+ footer .copyright{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+   color: #707070;
+    
+}
+footer .terms{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+    color: #707070;
+    }
+
+
+.footer4{
+        height: 90px;
+        width: 100%;
+        background-color:#E8E89F;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+    }
+
+
+
+
+
+
+
