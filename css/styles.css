@@ -108,7 +108,7 @@ font-weight: bold;
 
 .projectBackground{
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
@@ -463,7 +463,7 @@ footer{height: 68px;
     color: #707070; 
 }
 .footerTwo{
-    height: 99px;
+    height: 105px;
     width: 100%;
     background-color:#E8E89F;
     display: flex;
