@@ -108,7 +108,7 @@ font-weight: bold;
 
 .projectBackground{
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
@@ -148,7 +148,16 @@ font-weight: bold;
 .Screenshot3{
     width:603px ;
     height: 308px;
-    background-image:url(../images/The\ Coffee\ Place.png);
+    background-image:url(../images/TravelFlyImage.png);
+    background-size: cover;
+    background-position: center;
+    background-color: palevioletred;
+}
+
+.Screenshot4{
+    width:603px ;
+    height: 308px;
+    background-image:url(../images/CookieSheetsHome.png);
     background-size: cover;
     background-position: center;
     background-color: palevioletred;
@@ -172,10 +181,19 @@ font-weight: bold;
     margin: 0 auto 0 auto;
 }
 
-.BiggerCoffee{
+.BiggerTravel{
     width:800px ;
     height: 600px;
-    background-image: url(../images/The\ Coffee\ Place\ copy.png);
+    background-image: url(../images/TravelFlyImage.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 0 auto;
+}
+
+.BiggerSheets{
+    width:800px ;
+    height: 600px;
+    background-image: url(../images/CookieSheetsHome.png);
     background-size: cover;
     background-position: center;
     margin: 0 auto 0 auto;
@@ -252,18 +270,21 @@ color: #717606;
 
 .right{
 width: 823px;
-height: 184px;
+height: 200px;
 align-items: center;
 }
 
 
 .Info{
 font-family: Baskerville-Bold;
-font-size: 40px;
+font-size: 33px;
 color: black;
 text-align: center;
-opacity: calc(80%);
+
 }
+
+
+    
 
 
 /*This Style helps the ScreenShots on the Projects page*/
@@ -272,6 +293,7 @@ opacity: calc(80%);
     display:flex;
     justify-content: space-evenly
         }
+
 
 /*Styles Soap Factory Screenshot to the left*/
 .left1{
@@ -313,14 +335,15 @@ background-color: palevioletred;
 }
 /*The Coffee Place Screenshot underneath Sweetio and SoapFactory screenshots*/
 .Screenshot3Place{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-   background-color: palevioletred;
+    width:603px ;
+    height: 308px;
+    background-image: url(../images/SoapFactory\ copy.png);
+    background-size: cover;
+    background-position: center;
+    background-color: palevioletred;
 }
 /*Title for SoapFactory Page*/
-.TheCoffeePlaceTitle{
+.TravelFlyTitle{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -330,6 +353,22 @@ background-color: palevioletred;
     font-weight: bold;
     text-decoration: underline;
     background-color: palevioletred;
+    margin-left: 145px;
+    margin-top:27px ;
+}
+
+.CookieSheetsTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: Baskerville Regular;
+    font-size: 30px;
+    color: #484A0F;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: palevioletred;
+    margin-left: 145px;
+    margin-top:27px ;
 }
 /*All these styles create the SoapProject1, Sweetio Project2, and The Coffee Place positionings. The text and images are in the same position on each page, and this style is repeated on each of these three page*/
 .ProjectGroup{
