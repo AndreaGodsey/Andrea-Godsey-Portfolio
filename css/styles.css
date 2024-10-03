@@ -108,7 +108,17 @@ font-weight: bold;
 
 .projectBackground{
     width: 100%;
-    height: 90%;
+    height: 100%;
+    background-image: url(../images/websiteBackground.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: absolute;
+}
+
+.projectSectionBackground{
+    width: 100%;
+    height: 100%;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
@@ -262,6 +272,7 @@ opacity: calc(80%);
     display:flex;
     justify-content: space-evenly
         }
+
 /*Styles Soap Factory Screenshot to the left*/
 .left1{
 width:400px ;
@@ -306,7 +317,6 @@ background-color: palevioletred;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
-   margin-bottom: 27px;
    background-color: palevioletred;
 }
 /*Title for SoapFactory Page*/
@@ -325,12 +335,15 @@ background-color: palevioletred;
 .ProjectGroup{
 display: flex;
 justify-content: space-evenly;
-background-color: 
+background-color: palevioletred;
+height: 100%;
+margin-top: 30px;
 }
 
 .left3{
-height: 1100px;
+height: 500px;
 margin-right: 300px;
+background-color: palevioletred;
 }
 
 .right3{
@@ -338,6 +351,7 @@ margin-right: 300px;
     width: 400px;
     margin-top: 36.5px;
    margin-right: 425px;
+   background-color: palevioletred;
 }
 
 .TitleProject{
@@ -346,51 +360,41 @@ font-size: 40px;
 color: #484A0F;
 font-weight: bold;
 font-family: Georgia-Bold;
+background-color: #E8E89F;
+text-align: center;
+width: 97%;
 margin-left: 20px;
 }
 
 .ParaProject{
     width: 600px;
-    margin-top: 9.5px;
+    margin-top: 38px;
     margin-left: 20px;
-    font-size: 33px;
+    font-size: 29px;
     font-family: Baskerville Regular;
-   
+    background-color: #E8E89F;
+    text-align: center;
+    height: 824px;
 }
 
-.LinktoSoapTitle{
-margin-top:3.5px ;
-font-family: Baskerville Regular;
-font-weight: bold;
-color: #484A0F;
-font-size: 35px;
-margin-left: 20px;
-}
-
-.Client{
+.skills{
     margin-top: 26px;
     font-family: Georgia-Bold;
     font-weight: bold;
     font-size: 35px;
     color: #484A0F;
+    background-color: #E8E89F;
 }
 
-.ClientPara{
+.skillsList{
 font-size: 33px;
 font-family: Baskerville-Italic;
 width: 800px;
 margin-top: 28px;
 font-weight: bolder;
+background-color: #E8E89F;
 }
 
-.linktowebsite{
-    margin-left: 12px;
-    font-size: 40px;
-    color: black;
-    margin-bottom: 18px;
-    font-family: Baskerville Regular;
-    font-weight: bolder;
-}
 /*Footers for all Pages (Listed in HTML for Specific Ones*/
 footer{height: 68px;
     width: 100%;
@@ -418,6 +422,30 @@ footer{height: 68px;
     background-color:#E8E89F;
     font-family: Baskerville-Regular;
     color: #707070; 
+}
+.footerTwo{
+    height: 99px;
+    width: 100%;
+    background-color:#E8E89F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.footerTwo .copyright{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+   color: #707070;
+   position: relative;
+}
+.footerTwo .terms{
+    font-size: 28px;
+    background-color:#E8E89F;
+    font-family: Baskerville-Regular;
+    color: #707070;
+    position: relative;
 }
 .footerThree{
     height: 99px;
