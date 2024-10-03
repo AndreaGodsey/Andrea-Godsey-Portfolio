@@ -61,26 +61,26 @@ nav{
 }
 /*Each Active Link here is higlighted depending on which page the user is on*/
 .active{
-    color: #26BE03;
+    color: palevioletred;
     font-family: Baskerville-Italic;
     background-color: #E8E89F;
     font-weight: bold;
 }
  .active2{
-color: #26BE03;
+color: palevioletred;
 font-family: Baskerville-Italic;
 background-color: #E8E89F;
 font-weight: bold;
 }
 .active3{
-    color: #26BE03;
+    color: palevioletred;
     font-family: Baskerville-Italic;
     background-color: #E8E89F;
     font-weight: bold;
     }
 
 .active4{
-    color: #26BE03;
+    color: palevioletred;
     font-family: Baskerville-Italic;
     background-color: #E8E89F;
     font-weight: bold;
