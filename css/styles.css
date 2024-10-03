@@ -93,8 +93,7 @@ font-weight: bold;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
-    opacity: calc(70%);
-    margin: 0 auto 0 auto;
+    z-index: 0;
     position: absolute;
 }
 .AboutBackground{
@@ -103,8 +102,7 @@ font-weight: bold;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
-    opacity: calc(70%);
-    margin: 0 auto 0 auto;
+    z-index: 0;
     position: absolute;
 }
 
@@ -114,8 +112,7 @@ font-weight: bold;
     background-image: url(../images/websiteBackground.jpeg);
     background-size: cover;
     background-position: center;
-    opacity: calc(70%);
-    margin: 0 auto 0 auto;
+    z-index: 0;
     position: absolute;
 }
 
@@ -126,7 +123,7 @@ font-weight: bold;
     background-image: url(../images/SoapFactory\ copy.png);
     background-size: cover;
     background-position: center;
-    margin: 0 auto 0 auto;
+    background-color: palevioletred;
 }
 
 .Screenshot2{
@@ -135,7 +132,7 @@ font-weight: bold;
     background-image:url(../images/Sweet.io.png);
     background-size: cover;
     background-position: center;
-    margin: 0 auto 0 auto;
+    background-color: palevioletred;
 }
 
 .Screenshot3{
@@ -144,7 +141,7 @@ font-weight: bold;
     background-image:url(../images/The\ Coffee\ Place.png);
     background-size: cover;
     background-position: center;
-    margin: 0 auto 0 auto;
+    background-color: palevioletred;
 }
 /*ScreenShots that are bigger in size on SoapProject1 SweetioProject2 and TheCoffeePlaceProject*/
 .BiggerSoap{
@@ -175,33 +172,42 @@ font-weight: bold;
 }
 /*All Text on the About Page*/
 .aboutthedeveloper{
-margin-top: 10px;
+margin-top: 20px;
 margin-bottom: 10px;
 font-size: 60px;
 font-family: Georgia-Bold;
 color: #0D0D07;
 opacity: calc(70%);
+text-align: center;
+background-color: palevioletred;
 }
 
 .paragraphsaboutme1{
     font-family: Baskerville Regular;
-    font-size: 31px;
+    font-size: 45px;
     font-weight: bold;
     opacity: calc(70%);
+    text-align: center;
+    margin-top: 40px;
+    background-color: palevioletred;
 }
 
 .paragraphsaboutme2{
     font-family: Baskerville Regular;
-    font-size: 31px;
+    font-size: 45px;
     opacity: calc(70%);
     font-weight: bold;
+    text-align: center;
+    background-color: palevioletred;
 }
 
 .paragraphsaboutme3{
     font-family: Baskerville Regular;
-    font-size: 31px;
+    font-size: 45px;
     opacity: calc(70%);
     font-weight: bold;
+    text-align: center;
+    background-color: palevioletred;
 }
 
 
@@ -250,47 +256,9 @@ opacity: calc(80%);
 }
 
 
-/*All boxes and Text on Contact Page*/
-.textInputs label, input{
-    display: block;
-    border: solid 3px: #E8E89F;
-    }
-.textInputs label, input{
-    margin-top: 47px;
-    font-family: Baskerville Regular;
-    font-size: 35px;
-    color: black;
-    margin-left: 110px;
-    
-     }
- .Redastk{
-    color: #FC2205;
-}
-.textInputs input{
-        width: 1490px;
-        height: 73px;
-        border: solid 3px #E8E89F;
-        color: #FFFFFF;
-        background-color: #484A0F;
-        margin-left: 110px;
-        }
-.subBtn{
-    padding: 3px 3px;
-    background-color: #E8E89F;
-    border-style: solid ;
-    border-color: #707070;
-    border-radius: 31px;
-    font-family: Baskerville Regular;
-    color: black;
-    font-size: 35px;
-    width: 570px;
-    margin-top: 49px;
-    margin-left: 580px;
-    margin-bottom: 49px;
-    font-weight: bold;
-        }
 /*This Style helps the ScreenShots on the Projects page*/
 .Screenshots{
+    background-color: palevioletred;
     display:flex;
     justify-content: space-evenly
         }
@@ -300,6 +268,7 @@ width:400px ;
 height: 400px;
 margin-right:330px ;
 margin-top: 86px;
+background-color: palevioletred;
 }
 /*Title for SoapFactory Page*/
 .SoapFactoryTitle{
@@ -310,6 +279,7 @@ margin-top: 86px;
     color: #484A0F;
     font-weight: bold;
     text-decoration: underline;
+    background-color: palevioletred;
 }
 /*Styles Sweetio Screenshot to the right*/
 .right1{
@@ -317,6 +287,7 @@ width: 400px;
 height: 400px;
 margin-right: 180px;
 margin-top: 86px;
+background-color: palevioletred;
 }
 /*Title for SoapFactory Page*/
 .SweetIoTitle{
@@ -327,6 +298,7 @@ margin-top: 86px;
     color: #484A0F;
     font-weight: bold;
     text-decoration: underline;
+    background-color: palevioletred;
 }
 /*The Coffee Place Screenshot underneath Sweetio and SoapFactory screenshots*/
 .Screenshot3Place{
@@ -335,6 +307,7 @@ margin-top: 86px;
     justify-content: center;
     margin-top: 150px;
    margin-bottom: 27px;
+   background-color: palevioletred;
 }
 /*Title for SoapFactory Page*/
 .TheCoffeePlaceTitle{
@@ -346,11 +319,13 @@ margin-top: 86px;
     color: #484A0F;
     font-weight: bold;
     text-decoration: underline;
+    background-color: palevioletred;
 }
 /*All these styles create the SoapProject1, Sweetio Project2, and The Coffee Place positionings. The text and images are in the same position on each page, and this style is repeated on each of these three page*/
 .ProjectGroup{
 display: flex;
 justify-content: space-evenly;
+background-color: 
 }
 
 .left3{
