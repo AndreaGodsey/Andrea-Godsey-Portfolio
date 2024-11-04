@@ -10,8 +10,7 @@ html,body{
 
 h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 16px;
-} /*To cut off the white boxes around the page*/
-/*The Fonts*/
+} 
 @font-face {
     font-family: Baskerville Regular;
     src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
@@ -25,109 +24,40 @@ h1, h2, h3, h4, h5, h6, p{
     font-family: Georgia-Bold;
     src: url(../fonts/Baskervville/Noto_Serif_Georgian/NotoSerifGeorgian-Bold.ttf);
 }
-/*Navigation Bar at the Top of Each Page*/
+
 nav{
     width: 100%;
-    height: 99px;
-    margin: 0 auto 0 auto;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E8E89F;
-    border: 3px;
-    border-color: #707070;
-   
+    background-color: tan;
 }
-/*The Links that connect each page in the nav*/
+
 .links a{
-    text-decoration: none;
-    background-color: #E8E89F;
-    font-size: 28px;
-    color: #707070;
-    font-family: Baskerville-Regular;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 25px;
-    }
-/*Title of each link*/
-.TitleWebsite{
-    width: 50%;
-    text-decoration: none;
-    background-color: #E8E89F;
-    font-size: 28px;
-    color: #707070;
-    font-family: Baskerville-Regular;
-    margin-right: 670px;
-}
-/*Each Active Link here is higlighted depending on which page the user is on*/
-.active{
-    color: palevioletred;
-    font-family: Baskerville-Italic;
-    background-color: #E8E89F;
-    font-weight: bold;
-}
- .active2{
-color: palevioletred;
-font-family: Baskerville-Italic;
-background-color: #E8E89F;
-font-weight: bold;
-}
-.active3{
-    color: palevioletred;
-    font-family: Baskerville-Italic;
-    background-color: #E8E89F;
-    font-weight: bold;
+    font-style: italic;
+    background-color: tan;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
     }
 
-.active4{
-    color: palevioletred;
-    font-family: Baskerville-Italic;
-    background-color: #E8E89F;
-    font-weight: bold;
-    }
-/*Background Images on About and Home Page*/
+.TitleWebsite{
+    width: 50%;
+    background-color: tan;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .homeBackground{
     width: 100%;
     height: 90%;
-    background-image: url(../images/websiteBackground.jpeg);
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: absolute;
-}
-.AboutBackground{
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/websiteBackground.jpeg);
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: absolute;
-    background-color: palevioletred;
+    background-color: darkolivegreen;
 }
 
-.projectBackground{
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/websiteBackground.jpeg);
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: absolute;
-}
-
-.projectSectionBackground{
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/websiteBackground.jpeg);
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: absolute;
-}
-
-/*Screenshots on Projects Page*/
 .Screenshot1{
     width:603px ;
     height: 308px;
