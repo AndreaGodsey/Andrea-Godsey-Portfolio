@@ -11,19 +11,6 @@ html,body{
 h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 16px;
 } 
-@font-face {
-    font-family: Baskerville Regular;
-    src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
-}
-
-@font-face {
-    font-family: Baskerville-Italic;
-    src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
-}
-@font-face{
-    font-family: Georgia-Bold;
-    src: url(../fonts/Baskervville/Noto_Serif_Georgian/NotoSerifGeorgian-Bold.ttf);
-}
 
 nav{
     width: 100%;
@@ -31,12 +18,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: tan;
+    background-color: #b39895;
 }
 
 .links a{
     font-style: italic;
-    background-color: tan;
+    background-color: #b39895;
     font-size: 18px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,7 +32,7 @@ nav{
 
 .TitleWebsite{
     width: 50%;
-    background-color: tan;
+    background-color: #b39895;
     font-size: 18px;
     color: black;
     font-style: italic;
@@ -54,443 +41,146 @@ nav{
 
 .homeBackground{
     width: 100%;
-    height: 90%;
-    background-color: darkolivegreen;
+    height: 50%;
+    background-color: #393b2f;
 }
+
+.welcomeContainer{
+    background-color: #192b32;
+    display:flex;
+    justify-content: space-evenly;
+        }
 
 .Screenshot1{
     width:603px ;
     height: 308px;
-    background-image: url(../images/SoapFactory\ copy.png);
     background-size: cover;
     background-position: center;
-    background-color: palevioletred;
-}
-
-.Screenshot2{
-    width:603px ;
-    height: 308px;
-    background-image:url(../images/Sweet.io.png);
-    background-size: cover;
-    background-position: center;
-    background-color: palevioletred;
-}
-
-.Screenshot3{
-    width:603px ;
-    height: 308px;
-    background-image:url(../images/TravelFlyImage.png);
-    background-size: cover;
-    background-position: center;
-    background-color: palevioletred;
-}
-
-.Screenshot4{
-    width:603px ;
-    height: 308px;
-    background-image:url(../images/CookieSheetsHome.png);
-    background-size: cover;
-    background-position: center;
-    background-color: palevioletred;
-}
-/*ScreenShots that are bigger in size on SoapProject1 SweetioProject2 and TheCoffeePlaceProject*/
-.BiggerSoap{
-    width:800px ;
-    height: 600px;
-    background-image: url(../images/SoapFactory\ copy\ 2.png);
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto 0 auto;
-}
-
-.BiggerSweet{
-    width:800px ;
-    height: 600px;
-    background-image: url(../images/Sweet.io\ copy.png);
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto 0 auto;
-}
-
-.BiggerTravel{
-    width:800px ;
-    height: 600px;
-    background-image: url(../images/TravelFlyImage.png);
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto 0 auto;
-}
-
-.BiggerSheets{
-    width:800px ;
-    height: 600px;
-    background-image: url(../images/CookieSheetsHome.png);
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto 0 auto;
-}
-/*All Text on the About Page*/
-.aboutthedeveloper{
-margin-top: 20px;
-margin-bottom: 10px;
-font-size: 60px;
-font-family: Georgia-Bold;
-color: #0D0D07;
-opacity: calc(70%);
-text-align: center;
-background-color: palevioletred;
-}
-
-.paragraphsaboutme1{
-    font-family: Baskerville Regular;
-    font-size: 45px;
-    font-weight: bold;
-    opacity: calc(70%);
-    text-align: center;
-    margin-top: 40px;
-    background-color: palevioletred;
-}
-
-.paragraphsaboutme2{
-    font-family: Baskerville Regular;
-    font-size: 45px;
-    opacity: calc(70%);
-    font-weight: bold;
-    text-align: center;
-    background-color: palevioletred;
-}
-
-.paragraphsaboutme3{
-    font-family: Baskerville Regular;
-    font-size: 45px;
-    opacity: calc(70%);
-    font-weight: bold;
-    text-align: center;
-    background-color: palevioletred;
-}
-
-
-/*All Text on Home Page*/
-.AndreaWeb{
-    font-family: Baskerville-Bold;
-    font-size: 95px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 300px;
-    color: #484A0F;
-    opacity: calc(80%);
-}
-
-.BackComment{
-font-family: Georgia-Bold;
-font-size: 60px;
-margin-left: 16px;
-margin-top: 199px;
-color: #717606;
-}
-.paragraphs1{
-    display:flex;
-    justify-content: space-evenly
-}
-.left{
-   width: 823px;
-   height: 204px;
-   align-items: center;
-}
-
-.right{
-width: 823px;
-height: 200px;
-align-items: center;
-}
-
-
-.Info{
-font-family: Baskerville-Bold;
-font-size: 33px;
-color: black;
-text-align: center;
-
-}
-
-
     
+}
 
 
-/*This Style helps the ScreenShots on the Projects page*/
-.Screenshots{
-    background-color: palevioletred;
-    display:flex;
-    justify-content: space-evenly
-        }
-
-
-/*Styles Soap Factory Screenshot to the left*/
 .left1{
 width:400px ;
-height: 400px;
+height: 280px;
 margin-right:330px ;
 margin-top: 86px;
-background-color: palevioletred;
+background-color: #192b32;
 }
-/*Title for SoapFactory Page*/
-.SoapFactoryTitle{
-    margin-top:27px ;
-    margin-left: 140px;
-    font-family: Baskerville Regular;
-    font-size: 30px;
-    color: #484A0F;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: palevioletred;
-}
-/*Styles Sweetio Screenshot to the right*/
+
 .right1{
 width: 400px;
-height: 400px;
+height: 280px;
 margin-right: 180px;
 margin-top: 86px;
-background-color: palevioletred;
+background-color: #192b32;
 }
-/*Title for SoapFactory Page*/
-.SweetIoTitle{
-    margin-top:27px ;
-    margin-left: 250px ;
-    font-family: Baskerville Regular;
-    font-size: 30px;
-    color: #484A0F;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: palevioletred;
-}
-/*The Coffee Place Screenshot underneath Sweetio and SoapFactory screenshots*/
-.Screenshot3Place{
-    width:603px ;
-    height: 308px;
-    background-image: url(../images/SoapFactory\ copy.png);
-    background-size: cover;
-    background-position: center;
-    background-color: palevioletred;
-}
-/*Title for SoapFactory Page*/
-.TravelFlyTitle{
+
+.aboutParagraph{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
-    font-family: Baskerville Regular;
-    font-size: 30px;
-    color: #484A0F;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: palevioletred;
-    margin-left: 145px;
-    margin-top:27px ;
+    background-color: #192b32;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    text-align: right;
 }
 
-.CookieSheetsTitle{
+.aboutSection{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
-    font-family: Baskerville Regular;
-    font-size: 30px;
-    color: #484A0F;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: palevioletred;
-    margin-left: 145px;
-    margin-top:27px ;
-}
-/*All these styles create the SoapProject1, Sweetio Project2, and The Coffee Place positionings. The text and images are in the same position on each page, and this style is repeated on each of these three page*/
-.ProjectGroup{
-display: flex;
-justify-content: space-evenly;
-background-color: palevioletred;
-height: 100%;
-margin-top: 30px;
-}
-
-.left3{
-height: 500px;
-margin-right: 300px;
-background-color: palevioletred;
-}
-
-.right3{
-    height: 900px;
-    width: 400px;
-    margin-top: 36.5px;
-   margin-right: 425px;
-   background-color: palevioletred;
-}
-
-.TitleProject{
-margin-top: 36.5px;
-font-size: 40px;
-color: #484A0F;
-font-weight: bold;
-font-family: Georgia-Bold;
-background-color: #E8E89F;
-text-align: center;
-width: 97%;
-margin-left: 20px;
-}
-
-.ParaProject{
-    width: 600px;
-    margin-top: 38px;
-    margin-left: 20px;
-    font-size: 29px;
-    font-family: Baskerville Regular;
-    background-color: #E8E89F;
+    margin-top: 20%;
+    background-color: #192b32;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
     text-align: center;
-    height: 824px;
 }
 
-.skills{
-    margin-top: 26px;
-    font-family: Georgia-Bold;
-    font-weight: bold;
-    font-size: 35px;
-    color: #484A0F;
-    background-color: #E8E89F;
-}
-
-.skillsList{
-font-size: 33px;
-font-family: Baskerville-Italic;
-width: 800px;
-margin-top: 28px;
-font-weight: bolder;
-background-color: #E8E89F;
-}
-
-/*Footers for all Pages (Listed in HTML for Specific Ones*/
-footer{height: 68px;
-    width: 100%;
-    background-color:#E8E89F;
-    display: flex;
-    
-    }
-.footer1{
-    height: 68px;
-    width: 100%;
-    background-color:#E8E89F;
-    display: flex;
-    align-items: center;
+.aboutSectionContainer{
+    background-color: #393b2f;
+    display:flex;
     justify-content: space-evenly;
-    margin-top: 100px;
-}
-.footer1 .copyright{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-   color: #707070
-}
-.footer1 .terms{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-    color: #707070; 
-}
-.footerTwo{
-    height: 105px;
-    width: 100%;
-    background-color:#E8E89F;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-}
+       }
 
-.footerTwo .copyright{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-   color: #707070;
-   position: relative;
-}
-.footerTwo .terms{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-    color: #707070;
-    position: relative;
-}
-.footerThree{
-    height: 99px;
-    width: 100%;
-    background-color:#E8E89F;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 223px;
-    position: relative;
-}
-
-.footerThree .copyright{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-   color: #707070;
-   position: relative;
-}
-.footerThree .terms{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-    color: #707070;
-    position: relative;
-}
-.footerFour{
-    height: 99px;
-    width: 100%;
-    background-color:#E8E89F;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    position: relative;
-}
-
-.footerFour .copyright{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-   color: #707070;
-   position: relative;
-}
-.footerFour .terms{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-    color: #707070;
-    position: relative;
-}
- footer .copyright{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-   color: #707070;
-    
-}
-footer .terms{
-    font-size: 28px;
-    background-color:#E8E89F;
-    font-family: Baskerville-Regular;
-    color: #707070;
-    }
-
-
-.footer4{
-        height: 90px;
+.aboutSectionBackground{
         width: 100%;
-        background-color:#E8E89F;
-        align-items: center;
-        justify-content: space-evenly;
-        
-        
+        height: 50%;
+        background-color: #393b2f;
     }
+
+.aboutAuthorSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    background-color: #393b2f;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.authorAboutSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    background-color: #393b2f;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.aboutAuthorParagraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #393b2f;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    text-align: right;
+}
+
+.left2{
+    width:400px ;
+    height: 400px;
+    margin-right:330px ;
+    margin-top: 86px;
+    background-color: #393b2f;
+    }
+    
+.right2{
+    width: 400px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 86px;
+    background-color: #393b2f;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
     @media screen and (max-width: 800px) {
