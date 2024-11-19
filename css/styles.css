@@ -114,28 +114,24 @@ background-color: #192b32;
     }
 
 .aboutAuthorSection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 400px;
     margin-top: 20%;
     background-color: #393b2f;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
-    text-align: center;
+    font-size: 36px;
 }
 
 .authorAboutSection{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
     background-color: #393b2f;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -147,40 +143,36 @@ background-color: #192b32;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     text-align: right;
 }
 
 .left2{
     width:400px ;
     height: 400px;
-    margin-right:330px ;
-    margin-top: 86px;
+    margin-top: 5%;
     background-color: #393b2f;
     }
     
 .right2{
     width: 400px;
-    height: 400px;
-    margin-right: 180px;
-    margin-top: 86px;
+    height: 280px;
+    margin-top: 36px;
     background-color: #393b2f;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.authorImagery{
+        width: 350px;
+        height: 350px;
+        border-radius: 180px;
+        border-color: #b39895;
+        border: 185px;
+        overflow:hidden;
+        background-image: url(../images/AuthorImage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
    
     @media screen and (max-width: 800px) {
