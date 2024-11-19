@@ -101,17 +101,56 @@ background-color: #192b32;
     text-align: center;
 }
 
+.aboutSectionBackground{
+    width: 100%;
+    height: 60%;
+    background-color: #393b2f;
+}
+
 .aboutSectionContainer{
     background-color: #393b2f;
     display:flex;
     justify-content: space-evenly;
        }
 
-.aboutSectionBackground{
-        width: 100%;
-        height: 60%;
+.left2{
+        width:400px ;
+        height: 400px;
+        margin-top: 5%;
         background-color: #393b2f;
-    }
+        }
+
+.authorImagery{
+            width: 350px;
+            height: 350px;
+            border-radius: 180px;
+            border-color: #b39895;
+            border: 185px;
+            overflow:hidden;
+            background-image: url(../images/AuthorImage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+.right2{
+        width: 400px;
+        height: 280px;
+        margin-top: 36px;
+        background-color: #393b2f;
+        }
+
+.authorAboutSection{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #393b2f;
+            color: white;
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
 
 .aboutAuthorSection{
     width: 400px;
@@ -121,18 +160,6 @@ background-color: #192b32;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
-}
-
-.authorAboutSection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #393b2f;
-    color: white;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
 }
 
 .aboutAuthorParagraph{
@@ -147,33 +174,6 @@ background-color: #192b32;
     text-align: right;
 }
 
-.left2{
-    width:400px ;
-    height: 400px;
-    margin-top: 5%;
-    background-color: #393b2f;
-    }
-    
-.right2{
-    width: 400px;
-    height: 280px;
-    margin-top: 36px;
-    background-color: #393b2f;
-    }
-
-.authorImagery{
-        width: 350px;
-        height: 350px;
-        border-radius: 180px;
-        border-color: #b39895;
-        border: 185px;
-        overflow:hidden;
-        background-image: url(../images/AuthorImage.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
 .projectTitle{
     text-align: center;
     font-size: 30px;
@@ -187,13 +187,159 @@ background-color: #192b32;
 }
 
 
-
-
+.projectBackground{
     width: 100%;
-    height: 60%;
-    background-color: #393b2f;
-        
+    height: 50%;
+    background-color: #192b32;
+}
 
+.projectBackgroundTwo{
+    width: 100%;
+    height: 50%;
+    background-color: #192b32;
+}
+
+
+.projectContainer{
+    background-color: #192b32;
+    display:flex;
+    justify-content: space-evenly;
+        }
+
+.projectContainerTwo{
+    background-color: #393b2f;
+    display:flex;
+    justify-content: space-evenly;
+        }
+
+.left3{
+    width:800px ;
+    height: 280px;
+    margin-right:330px ;
+    margin-top: 86px;
+    background-color: #192b32;
+            }
+            
+.right3{
+            width: 400px;
+            height: 280px;
+            margin-right: 180px;
+            margin-top: 86px;
+            background-color: #192b32;
+            }
+
+.left4{
+    width:800px ;
+    height: 280px;
+    margin-right:330px ;
+    margin-top: 86px;
+    background-color: #393b2f;
+         }
+                        
+.right4{
+    width: 400px;
+    height: 280px;
+    margin-right: 180px;
+    margin-top: 86px;
+    background-color: #393b2f;
+        }
+        
+.projectParagraph{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #192b32;
+                color: white;
+                font-style: italic;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 27px;
+                text-align: right;
+            }
+            
+.projectSection{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20%;
+                background-color: #192b32;
+                color: white;
+                font-style: italic;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                text-align: center;
+            }
+
+.projectCreation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #192b32;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+            }
+
+.projectParagraphTwo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #192b32;
+                color: white;
+                font-style: italic;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 27px;
+                text-align: right;
+            }
+            
+.projectSectionTwo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20%;
+                background-color: #192b32;
+                color: white;
+                font-style: italic;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                text-align: center;
+            }
+
+.projectCreationTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #192b32;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+            }
+
+.contactInformation{
+    height: 100%;
+    width: 100%;
+    background-color: #393b2f;
+}
+
+.footerSite{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b39895;
+}
+
+.copyright{
+    font-style: italic;
+    background-color: #b39895;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
