@@ -17,8 +17,9 @@ nav{
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #b39895;
+    position: fixed;
 }
 
 .links a{
@@ -51,12 +52,44 @@ nav{
     justify-content: space-evenly;
         }
 
-.Screenshot1{
-    width:603px ;
+.coolImagery{
+    width:500px ;
     height: 308px;
     background-size: cover;
     background-position: center;
-    
+    background-image: url(../images/CookieSheets.png);
+    margin-left: 50px;
+    border: 5px solid #b39895;
+}
+
+.coolImagery2{
+    width:500px ;
+    height: 308px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/SoapFactory.png);
+    margin-left: 50px;
+    border: 5px solid #b39895;
+}
+
+.coolImagery3{
+    width:500px ;
+    height: 308px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/TravelFlyImage.png);
+    margin-left: 50px;
+    border: 5px solid #b39895;
+}
+
+.coolImagery4{
+    width:500px ;
+    height: 308px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/Sweet.io.png);
+    margin-left: 50px;
+    border: 5px solid #b39895;
 }
 
 
@@ -124,8 +157,7 @@ background-color: #192b32;
             width: 350px;
             height: 350px;
             border-radius: 180px;
-            border-color: #b39895;
-            border: 185px;
+            border: 5px solid #b39895;
             overflow:hidden;
             background-image: url(../images/AuthorImage.jpg);
             background-repeat: no-repeat;
@@ -189,7 +221,7 @@ background-color: #192b32;
 
 .projectBackground{
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-color: #192b32;
 }
 
@@ -215,8 +247,7 @@ background-color: #192b32;
 .left3{
     width:800px ;
     height: 280px;
-    margin-right:330px ;
-    margin-top: 86px;
+    margin-right:130px;
     background-color: #192b32;
             }
             
@@ -227,22 +258,6 @@ background-color: #192b32;
             margin-top: 86px;
             background-color: #192b32;
             }
-
-.left4{
-    width:800px ;
-    height: 280px;
-    margin-right:330px ;
-    margin-top: 86px;
-    background-color: #393b2f;
-         }
-                        
-.right4{
-    width: 400px;
-    height: 280px;
-    margin-right: 180px;
-    margin-top: 86px;
-    background-color: #393b2f;
-        }
         
 .projectParagraph{
                 display: flex;
@@ -340,6 +355,7 @@ background-color: #192b32;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 
 
