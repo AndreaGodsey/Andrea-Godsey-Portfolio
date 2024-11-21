@@ -42,7 +42,7 @@ nav{
 
 .homeBackground{
     width: 100%;
-    height: 55%;
+    height: 45%;
     background-color: #192b32;
 }
 
@@ -192,12 +192,12 @@ background-color: #192b32;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 20px;
             text-align: center;
+            width: 100%;
         }
 
 .aboutAuthorSection{
-    width: 400px;
     margin-top: 20%;
-    background-color: #192b32;
+    background-color: #393b2f;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,7 +209,7 @@ background-color: #192b32;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #192b32;
+    background-color: #393b2f;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -297,7 +297,7 @@ background-color: #192b32;
             }
 
 .contactInformation{
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-color: #393b2f;
 }
