@@ -67,14 +67,14 @@ nav{
     height: 308px;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/CookieSheets.png);
+    background-image: url(../images/Eventsy.png);
     margin-left: 50px;
     border: 5px solid #b39895;
 }
 
 .coolImagery2{
     width:500px ;
-    height: 308px;
+    height: 340px;
     background-size: cover;
     background-position: center;
     background-image: url(../images/SoapFactory.png);
@@ -233,7 +233,7 @@ background-color: #192b32;
 
 .projectBackground{
     width: 100%;
-    height: 60%;
+    height: 70%;
     background-color: #192b32;
 }
 
@@ -260,15 +260,14 @@ background-color: #192b32;
             }
         
 .projectParagraph{
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                padding-top: 3%;
+                padding-left: 5%;
                 background-color: #192b32;
                 color: white;
                 font-style: italic;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 27px;
-                text-align: right;
+                font-size: 18px;
+                text-align: center;
             }
             
 .projectSection{
@@ -285,14 +284,12 @@ background-color: #192b32;
             }
 
 .projectCreation{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 2%;
     background-color: #192b32;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
             }
 
