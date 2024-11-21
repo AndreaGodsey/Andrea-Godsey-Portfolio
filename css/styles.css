@@ -42,14 +42,24 @@ nav{
 
 .homeBackground{
     width: 100%;
-    height: 50%;
-    background-color: #393b2f;
+    height: 55%;
+    background-color: #192b32;
 }
 
 .welcomeContainer{
     background-color: #192b32;
     display:flex;
     justify-content: space-evenly;
+        }
+
+.welcomeImage{
+            width: 500px; ;
+            height: 308px;
+            background-size: cover;
+            background-position: center;
+            background-image: url(../images/Coffee\ and\ Computer.png);
+            margin-left: 50px;
+            border: 2px solid #b39895;
         }
 
 .coolImagery{
@@ -97,7 +107,7 @@ nav{
 width:400px ;
 height: 280px;
 margin-right:330px ;
-margin-top: 86px;
+margin-top: 70px;
 background-color: #192b32;
 }
 
@@ -144,6 +154,7 @@ background-color: #192b32;
     background-color: #393b2f;
     display:flex;
     justify-content: space-evenly;
+    
        }
 
 .left2{
@@ -168,7 +179,6 @@ background-color: #192b32;
 .right2{
         width: 400px;
         height: 280px;
-        margin-top: 36px;
         background-color: #393b2f;
         }
 
@@ -192,6 +202,7 @@ background-color: #192b32;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
+    text-decoration: underline;
 }
 
 .aboutAuthorParagraph{
@@ -202,8 +213,9 @@ background-color: #192b32;
     color: white;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: right;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3%;
 }
 
 .projectTitle{
@@ -334,7 +346,7 @@ background-color: #192b32;
             }
 
 .contactInformation{
-    height: 100%;
+    height: 50%;
     width: 100%;
     background-color: #393b2f;
 }
