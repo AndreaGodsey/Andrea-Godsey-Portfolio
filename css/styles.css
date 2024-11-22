@@ -42,7 +42,7 @@ nav{
 
 .homeBackground{
     width: 100%;
-    height: 45%;
+    height: 60%;
     background-color: #192b32;
 }
 
@@ -387,6 +387,10 @@ background-color: #393b2f;
     text-align: center;
     text-decoration: underline;
     }
+
+.space{
+    width: 2%;
+}
 
 
 
